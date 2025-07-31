@@ -1,5 +1,27 @@
-Бот FunPay Auto Steam Guard.
-Этот бот на Python автоматически генерирует коды Steam Guard через команды на FunPay. Он использует библиотеку base64 с SDA (Steam Desktop Authenticator) для извлечения shared_secret из mafile пользователя и требует golden_key аккаунта FunPay (из куков браузера) для аутентификации. Для настройки пользователи вводят shared_secret и golden_key в файл .env. Бот интегрируется с FunPay через funpayapi (в папке проекта), чтобы отслеживать команды и отправлять коды.
+# FunPay Auto Steam Guard
 
-FunPay Auto Steam Guard Bot
-This Python bot automatically generates Steam Guard codes via FunPay commands. It uses the base64 library with SDA (Steam Desktop Authenticator) to extract the shared_secret from a user's mafile and requires a FunPay account's golden_key (retrieved from browser cookies) for authentication. To set up, users input their shared_secret and golden_key into a .env file. The bot integrates with FunPay via the funpayapi (included in the project folder) to listen for commands and respond with codes.
+🔐 Бот для автоматической генерации кодов Steam Guard на FunPay  
+📌 Готов к использованию
+
+## Что из себя представляет бот?
+
+Это Python-скрипт, который:      
+✔ Автоматически генерирует коды Steam Guard по запросу  
+✔ Интегрируется с FunPay для обработки команд  
+✔ Использует защищённое хранение данных аутентификации  
+✔ Работает с SDA (Steam Desktop Authenticator)  
+
+## Что нужно для работы бота?
+1. Установка Python и библиотек
+```pip install -r requirements.txt```
+2. Привязанный SDA к аккаунту Steam и `shared_secret` из вашего `mafile`.
+3. Настройка .env
+```
+FUNPAY_AUTH_TOKEN=ваш_golden_key
+STEAM_SHARED_SECRET=ваш_shared_secret
+```
+4. Если сделали все праильно, то по команде ```!код```, код от Steam Guard будет приходить.
+
+По всем багам, вопросам и предложеням пишите в [Issues](https://github.com/tinechelovec/Funpay-Telegram-Stars/issues) или в [Telegram](https://t.me/tinechelovec)
+
+Другие боты [Channel](https://t.me/by_thc)
