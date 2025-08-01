@@ -22,6 +22,6 @@ STEAM_SHARED_SECRET=ваш_shared_secret
 ```
 4. Если сделали все праильно, то по команде ```!код```, код от Steam Guard будет приходить.
 
-По всем багам, вопросам и предложеням пишите в [Issues](https://github.com/tinechelovec/Funpay-Telegram-Stars/issues) или в [Telegram](https://t.me/tinechelovec)
+По всем багам, вопросам и предложеням пишите в [Issues](https://github.com/tinechelovec/Funpay-Auto-Steam-Guard/issues) или в [Telegram](https://t.me/tinechelovec)
 
 Другие боты [Channel](https://t.me/by_thc)
