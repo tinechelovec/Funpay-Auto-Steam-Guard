@@ -24,4 +24,4 @@ STEAM_SHARED_SECRET=ваш_shared_secret
 
 По всем багам, вопросам и предложеням пишите в [Issues](https://github.com/tinechelovec/Funpay-Auto-Steam-Guard/issues) или в [Telegram](https://t.me/tinechelovec)
 
-Другие боты [Channel](https://t.me/by_thc)
+Другие боты и плагины [Channel](https://t.me/by_thc)
