@@ -7,7 +7,7 @@
 
 Это Python-скрипт, который:      
 ✔ Автоматически генерирует коды Steam Guard по запросу  
-✔ Интегрируется с FunPay для обработки команд  
+✔ Можно добавить более одного аккаунта   
 ✔ Использует защищённое хранение данных аутентификации  
 ✔ Работает с SDA (Steam Desktop Authenticator)  
 
@@ -18,9 +18,11 @@
 3. Настройка .env
 ```
 FUNPAY_AUTH_TOKEN=ваш_golden_key
-STEAM_SHARED_SECRET=ваш_shared_secret
+SHARED_SECRET_0=SHARED_SECRET_0
+COMMAND_SECRET_0=!0
+LIMIT_SECRET_0=любое
+PERIOD_SECRET_0=любое
 ```
-4. Если сделали все праильно, то по команде ```!код```, код от Steam Guard будет приходить.
 
 По всем багам, вопросам и предложеням пишите в [Issues](https://github.com/tinechelovec/Funpay-Auto-Steam-Guard/issues) или в [Telegram](https://t.me/tinechelovec)
 
